@@ -1,0 +1,42 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "MultiTool",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "multitool",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Multitool",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      },
+      {
+        "value": "CUSTOM:ToolsOfLegends"
+      }
+    ],
+    "efficiency": 100002.5,
+    "attackSpeed": 99.0,
+    "enchantability": 100005,
+    "damageVsEntity": 100001.90000000001,
+    "usageCount": 109319,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "Blocks.AMETHYST_BLOCK"
+      }
+    ],
+    "immuneToFire": true,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "mod_elements": [
+    {
+      "name": "ToolsOfLegends",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tools_of_legends",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SwordOfLegends",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sword_of_legends",
+      "metadata": {
+        "files": [
+          "src/main/java/com/fedotovdev/tolmc/item/SwordOfLegendsItem.java",
+          "src/main/resources/assets/tools_of_legends/models/item/sword_of_legends.json"
+        ]
+      }
+    },
+    {
+      "name": "PickaxeOfLegends",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pickaxe_of_legends",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tools_of_legends/models/item/pickaxe_of_legends.json",
+          "src/main/java/com/fedotovdev/tolmc/item/PickaxeOfLegendsItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ShovelOfLegends",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shovel_of_legends",
+      "metadata": {
+        "files": [
+          "src/main/java/com/fedotovdev/tolmc/item/ShovelOfLegendsItem.java",
+          "src/main/resources/assets/tools_of_legends/models/item/shovel_of_legends.json"
+        ]
+      }
+    },
+    {
+      "name": "Multitool",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multitool",
+      "metadata": {
+        "files": [
+          "src/main/java/com/fedotovdev/tolmc/item/MultitoolItem.java",
+          "src/main/resources/assets/tools_of_legends/models/item/multitool.json"
+        ]
+      }
+    },
+    {
+      "name": "SwordLegendsCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sword_legends_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tools_of_legends/recipes/sword_legends_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "PickaxeLegendsCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pickaxe_legends_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tools_of_legends/recipes/pickaxe_legends_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "ShovelLegendsCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shovel_legends_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tools_of_legends/recipes/shovel_legends_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "MultitoolCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multitool_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tools_of_legends/recipes/multitool_craft.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:ShovelOfLegends"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:Multitool"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:Multitool",
+      "~CUSTOM:PickaxeOfLegends"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:Multitool",
+      "~CUSTOM:SwordOfLegends"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "ru_ru": {
+      "item.tools_of_legends.sword_of_legends": "Кинжал Легенд",
+      "item.tools_of_legends.shovel_of_legends": "Лопата Легенд",
+      "item.tools_of_legends.multitool": "Мульти-тул",
+      "item.tools_of_legends.pickaxe_of_legends": "Кирка Легенд",
+      "item_group.tools_of_legends.tools_of_legends": "Мод Tools Of Legends"
+    },
+    "en_us": {
+      "item.tools_of_legends.sword_of_legends": "Sword Of Legends",
+      "item.tools_of_legends.shovel_of_legends": "Shovel Of Legends",
+      "item.tools_of_legends.multitool": "Multitool",
+      "item.tools_of_legends.pickaxe_of_legends": "Pickaxe Of Legends",
+      "item_group.tools_of_legends.tools_of_legends": "Tools Of Legends Mod"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "tools_of_legends",
+    "modName": "Tools Of Legends",
+    "version": "1.0.0",
+    "author": "Daniil, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "com.fedotovdev.tolmc"
+  },
+  "mcreatorVersion": 202400232117
+}

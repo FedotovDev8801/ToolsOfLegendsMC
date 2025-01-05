@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "def",
+    "dgh"
+  ],
+  "key": {
+    "a": {
+      "item": "tools_of_legends:sword_of_legends"
+    },
+    "b": {
+      "item": "tools_of_legends:pickaxe_of_legends"
+    },
+    "c": {
+      "item": "tools_of_legends:shovel_of_legends"
+    },
+    "d": {
+      "item": "minecraft:redstone"
+    },
+    "e": {
+      "item": "minecraft:amethyst_block"
+    },
+    "f": {
+      "item": "minecraft:deepslate_diamond_ore"
+    },
+    "g": {
+      "item": "minecraft:red_dye"
+    },
+    "h": {
+      "item": "minecraft:crying_obsidian"
+    }
+  },
+  "result": {
+    "item": "tools_of_legends:multitool",
+    "count": 1
+  }
+}
